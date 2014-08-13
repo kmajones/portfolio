@@ -1,0 +1,18 @@
+#wrapper{
+	width:100%;
+}
+
+nav{
+	width: 100%;
+	position:absolute;
+	bottom:0;
+
+	background: cornflowerblue;
+}
+
+
+
+li{
+		list-style: none;
+		display:inline;
+}
