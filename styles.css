@@ -2,17 +2,107 @@
 	width:100%;
 }
 
+#navigation{
+	background: blue;
+		
+}		
+
+/*Introduction*/
+
+.introduction{
+
+	background: blue;
+	position:absolute;
+	top:40%;
+	left:50px;
+	
+}
+
+.hello{
+
+	background: green;
+	font-family: "Futura" ;
+
+}
+
+
+.name{
+
+	background: orange;
+	font-family: "Futura"; 
+	top:40%;
+	
+}
+
+
+.kaelynn{
+
+	background: tomato;
+	font-family: "FrenteH1-Regular";
+	font-size: 3em;
+}
+
+/*Background*/
+body{
+	background: lightblue;
+}
+
+/*Navigation*/
+
+li{
+	list-style: none;
+	margin: 0 -50px;
+	padding: 4% 0 4% 45%;
+	background: blue;
+	font-size: 1.4em;
+
+}
+
+li:nth-child(1n){
+	background: cornflowerblue;
+}
+
+li:nth-child(2n){
+	background: red;
+}
+
+li:nth-child(3n){
+	background: yellow;
+}
+
+
 nav{
 	width: 100%;
-	position:absolute;
-	bottom:0;
+	height:15%;
+	position:fixed;
+	top:0;
+	margin:0;
 
 	background: cornflowerblue;
 }
 
 
 
-li{
+/* Screens 1000px+ */
+
+@media  screen and (min-width=1000px){
+
+	nav{
+	width: 100%;
+	height:10%;
+	position:fixed;
+	bottom:0;
+
+
+	background: cornflowerblue;
+}
+
+	li{
 		list-style: none;
 		display:inline;
+		margin:0 10%;
+		font-size: 1.5em;
+		
+		background: tomato;
+}
 }
