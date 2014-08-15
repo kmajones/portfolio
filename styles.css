@@ -4,55 +4,148 @@
 
 #navigation{
 	background: blue;
+
 		
 }		
 
 /*Introduction*/
 
-.introduction{
+/* General Styling */
+html{
+  font-family: 'Amatic SC', cursive;
+   text-rendering: optimizeLegibility;
+}
 
-	background: blue;
-	position:absolute;
-	top:40%;
-	left:50px;
-	
+body{
+  font-size:100%;
+  background: lightblue;
+  color:white;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+}
+
+
+/* Word Styling */
+
+h1{
+  margin:0;
+}
+
+.container{
+
+  
+  position: relative;
+  width: 100%;
+  margin: 25% auto;
+}
+
+.hello-container{
+  position:relative;
+  width:100%;
 }
 
 .hello{
+  font-size: 4em;
+  letter-spacing:-.04em;
+  text-transform: uppercase;
+  text-align:center;
+  
+}
+  
 
-	background: green;
-	font-family: "Futura" ;
-
+.my-name-container{
+  position:relative;
+  width:100%;
 }
 
-
-.name{
-
-	background: orange;
-	font-family: "Futura"; 
-	top:40%;
-	
+.my-name{
+  text-align:center;
+  margin:0 0 1% 0;
 }
 
+.dash{
+  text-align:center;
+  line-height:.75em;
+  margin: 1% 0;
+}
+
+  .kaelynn-container{
+  position:relative;
+  width:100%;
+}
 
 .kaelynn{
+  text-align:center;
+  font-size: 4em;
+  margin:-2% 0 0 0;
+  padding:0;
+  letter-spacing:-.01em; 
 
-	background: tomato;
-	font-family: "FrenteH1-Regular";
-	font-size: 3em;
 }
 
-/*Background*/
-body{
-	background: lightblue;
+  .crume-container{
+  position:relative;
+  width:100%;
 }
+
+.crume{
+  text-align:center;
+  font-size: 4em;
+  line-height:.8em;
+  margin:0 0 1% 0;
+  letter-spacing:.14em; 
+}
+
+.and-container{
+   position:relative;
+  width:100%;
+}
+
+.and{ 
+  margin: 1% 0 0 0;
+  text-align:center;
+}
+
+.web-graphic-container{
+   position:relative;
+  margin:1em auto;
+   width:100%;
+}
+
+
+p{
+  margin: .75% 0;
+  text-align:center;
+  letter-spacing: 0.18em;
+  font-size: 1.5em;  
+   
+    line-height: 1;
+}
+  
+.web{ 
+  text-align:center;
+}
+
+
+.graphic{ 
+  text-align:center;
+}
+
+
 
 /*Navigation*/
 
+ul{
+	margin:0;
+	padding:0;
+}
 li{
 	list-style: none;
-	margin: 0 -50px;
-	padding: 4% 0 4% 45%;
+	text-align: center;
+	margin: 0;
+	padding: 2% 0;
 	background: blue;
 	font-size: 1.4em;
 
@@ -74,13 +167,11 @@ li:nth-child(3n){
 nav{
 	width: 100%;
 	height:15%;
-	position:fixed;
-	top:0;
+	float:top;
 	margin:0;
 
 	background: cornflowerblue;
 }
-
 
 
 /* Screens 1000px+ */
