@@ -1,0 +1,35 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+	<div id="Container">
+	<div class="mix category-1" data-myorder="2"></div>
+	<div class="mix category-2" data-myorder="4"></div>
+	<div class="mix category-1" data-myorder="1"></div>
+	...
+	<div class="mix category-2" data-myorder="8"></div>
+
+<div class="filter" data-filter="all">Show All</div>
+<div class="filter" data-filter=".category-1">Category 1</div>
+<div class="filter" data-filter=".category-2">Category 2</div>
+
+
+<div class="sort" data-sort="default">Default</div>
+<div class="sort" data-sort="myorder:asc">Ascending</div>
+<div class="sort" data-sort="myorder:desc">Descending</div>
+<div class="sort" data-sort="random">Random</div>
+</div>
+</div>
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+		<script src="main.js"></script>
+<script src="js.js"></script>
+		
+</body>
+</html>

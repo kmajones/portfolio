@@ -133,7 +133,10 @@ p{
   text-align:center;
 }
 
-
+/*Gallery*/
+#Container .mix{
+	display: none;
+}
 
 /*Navigation*/
 
