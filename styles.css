@@ -115,7 +115,7 @@ h1{
 }
 
 
-p{
+.web p{
   margin: .75% 0;
   text-align:center;
   letter-spacing: 0.18em;
@@ -140,11 +140,11 @@ p{
 
 /*Navigation*/
 
-ul{
+#navigation ul{
 	margin:0;
 	padding:0;
 }
-li{
+#navigation li{
 	list-style: none;
 	text-align: center;
 	margin: 0;
@@ -154,15 +154,15 @@ li{
 
 }
 
-li:nth-child(1n){
+#navigation li:nth-child(1n){
 	background: cornflowerblue;
 }
 
-li:nth-child(2n){
+#navigation li:nth-child(2n){
 	background: red;
 }
 
-li:nth-child(3n){
+#navigation li:nth-child(3n){
 	background: yellow;
 }
 
