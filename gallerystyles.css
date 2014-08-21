@@ -28,6 +28,29 @@ width: 600px;
 	width:100%;
 }
 
+.gallery p{
+	background: rgba(0, 204, 204, 0.5);
+	font-size: 1.5em;
+	height: 100%;
+	margin:5px;
+	text-align: center;
+	color:#fff;
+
+	transition:all.75s;
+}
+
+.bar{
+	opacity:.8;
+}
+
+li:hover p{
+   margin-top:-225px;
+   margin-left: 0;
+   margin-right:0;
+   padding:10px;
+ 
+}
+
 
 @media screen and (max-width: 450px){
 	.gallery{
