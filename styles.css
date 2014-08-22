@@ -21,114 +21,22 @@ a{
 	color:#fff;
 }
 
+/*About Page*/
 
-
-/* Word Styling */
-
-h1{
-  margin:0;
+article{
+  width:90%;
+  margin: 0 5% ;
 }
 
-.container{
-
-  
-  position: relative;
-  width: 100%;
-  margin: 25% auto;
+article figure{
+  margin:0 5%;
 }
 
-.hello-container{
-  position:relative;
-  width:100%;
+ .under{
+
+  font-size: .8em;
+  font-style: italic;
 }
-
-.hello{
-  font-size: 4em;
-  letter-spacing:-.04em;
-  text-transform: uppercase;
-  text-align:center;
-  
-}
-  
-
-.my-name-container{
-  position:relative;
-  width:100%;
-}
-
-.my-name{
-  text-align:center;
-  margin:0 0 1% 0;
-}
-
-.dash{
-  text-align:center;
-  line-height:.75em;
-  margin: 1% 0;
-}
-
-  .kaelynn-container{
-  position:relative;
-  width:100%;
-}
-
-.kaelynn{
-  text-align:center;
-  font-size: 4em;
-  margin:-2% 0 0 0;
-  padding:0;
-  letter-spacing:-.01em; 
-
-}
-
-  .crume-container{
-  position:relative;
-  width:100%;
-}
-
-.crume{
-  text-align:center;
-  font-size: 4em;
-  line-height:.8em;
-  margin:0 0 1% 0;
-  letter-spacing:.14em; 
-}
-
-.and-container{
-   position:relative;
-  width:100%;
-}
-
-.and{ 
-  margin: 1% 0 0 0;
-  text-align:center;
-}
-
-.web-graphic-container{
-   position:relative;
-  margin:1em auto;
-   width:100%;
-}
-
-
-.web p{
-  margin: .75% 0;
-  text-align:center;
-  letter-spacing: 0.18em;
-  font-size: 1.5em;  
-   
-    line-height: 1;
-}
-  
-.web{ 
-  text-align:center;
-}
-
-
-.graphic{ 
-  text-align:center;
-}
-
 
 
 
