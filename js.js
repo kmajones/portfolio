@@ -1,9 +1,5 @@
 // On document ready:
+$( document ).ready();
 
-$(function(){
 
-	// Instantiate MixItUp:
-
-	$('#Container').mixItUp();
-
-});
+document.querySelector('style').textContent += "@media screen and (max-width:450px) { div { color: red; } }";
