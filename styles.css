@@ -38,7 +38,28 @@ article figure{
   font-style: italic;
 }
 
+/*Extended Gallery Pages */
 
+#sub-menu{
+  float:left;
+  width:20%;
+  margin: 2% 5%;
+  
+}
+
+.content{
+  float:right;
+  width:55%;
+
+}
+
+h3{
+margin: 0 0 1% 6%;
+}
+
+p{
+  margin:1em;
+}
 
 /*Navigation*/
 
