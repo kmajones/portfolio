@@ -3,10 +3,6 @@
 /* General Styling */
 	
 
-	html{
-	   text-rendering: optimizeLegibility;
-	}
-
 	body{
 	  font-size:100%;
 	  font-family: 'Raleway', sans-serif;
@@ -15,7 +11,7 @@
 	}
 
 
-	h1, h2, h3, nav{
+	h1, h2, h3, h4, nav{
 		 font-family: 'Oswald', sans-serif;
 	}
 	
@@ -24,8 +20,14 @@ h3{
 		margin: 0 0 1% 6%;
 		}
 
-		p{
-		  margin:1em;
+p{
+	    font-size: 1em;
+	    margin:1em;
+		font-feature-settings: "kern";
+  	 	-webkit-font-feature-settings: "kern";
+  		-moz-font-feature-settings: "kern";
+  		-moz-font-feature-settings: "kern=1";
+  		text-rendering: optimizeLegibility;
 		}
 
 	a{
@@ -88,9 +90,12 @@ nav{
 /*About Page*/
 
 	article{
-	  width:90%;
-	  margin: 0 5% ;
+		display:block;
+		margin:5% auto;
+	    width:60%;
 	}
+
+
 
 	article figure{
 	  margin:0 5%;
@@ -106,6 +111,15 @@ nav{
 
 
 /*Gallery Styles*/
+
+	.decor h2{
+	  	text-align: center;
+
+	}
+
+	h2 span{
+		border: 3px dashed #666;
+		padding: 10px;	}
 
 
 	.gallery{
@@ -126,6 +140,7 @@ nav{
 	  float:left;
 	  overflow: hidden; 
 	  width:200px;
+	  height:300px;
 	  padding:0;
 	  margin: 1%;
 	}
@@ -168,6 +183,9 @@ nav{
 
 	}
 
+/*Gallery Image Specific Background positioning*/
+
+	
 /*End Gallery Pages*/
 
 
@@ -194,28 +212,32 @@ nav{
 	 padding:0;
 	 margin:10px 0;
 	 width:60%;
-
 	}
+
+	.content h1{
+		margin:3% 0;
+	}
+
 /*End Extended Gallery Pages*/
 
 
 
 /*Gallery Footer*/
 	.gallery-footer div{
-		height:50px;
-		background: green;
-	}
-	.gallery-footer{
+		height:25px;
 		clear:both;
-	background:orange;
+		margin:0 0 5% 0;
 	}
+
+	
 
 
 	/*arrows*/
+
+
 		footer img{
-			width:50px;
-			height:50px;
-			background: orange;
+			width:25px;
+			height:25px;
 		}
 
 		img[alt~="chevron-left"]{
@@ -223,19 +245,16 @@ nav{
 			left:25%;
 		}
 
-
 		img[alt~="grid-three-up"]{
 			position:relative;
 			display:block;
-			margin:0 auto;
-			bottom:100%;
-			
+			float:left;
+			left:50%;
 		}
 
 		img[alt~="chevron-right"]{
 			position:absolute;
 			right:25%;
-
 		}
 
 /*End Footer*/
@@ -285,6 +304,17 @@ nav{
 		position:static;
 	}
 
+/*About me Page*/
+	
+	article{
+		width:100%;
+	}
+
+	.about-me figure{
+		max-width:480px;
+		width:100%;
+		clear:left;
+	}
 	
 /*portfolio pages*/
 	.container{
