@@ -20,17 +20,6 @@
 
 	}
 
-	.logo{
-		margin: 0 auto;
-		background: url("http://lorempixel.com/100/200/animals") no-repeat;
-		
-	}
-
-	header div{
-		background: orange;
-		height:100px;
-		width:100%;
-	}
 
 	h1, h2, h3, nav{
 		 font-family: 'Oswald', sans-serif;
@@ -39,6 +28,57 @@
 		text-decoration: none;
 		color:#fff;
 	}
+
+/*Navigation*/
+
+.logo{
+		position:relative;
+		max-width:300px;
+		height:75px;
+		left:10%;
+		z-index: 1;
+		background: url("http://lorempixel.com/450/75/animals") no-repeat;
+}
+		
+	
+
+header div{
+		
+		height:75px;
+		
+	}
+
+
+nav div{background: orange;
+		width:100%;}
+
+
+nav{
+	position:absolute;
+	top:0;
+	width: 100%;
+	margin:0;
+  	text-transform: uppercase;
+
+}
+
+#navigation ul{
+	margin:0;
+	padding:0;
+}
+#navigation li{
+	display:inline-block;
+	position:relative;
+	left:55%;
+	list-style: none;
+	text-align: center;
+	margin: 0 1.5%;
+	padding: 1.5% 0;
+	font-size: 1.2em;
+	line-height: 2.5em;
+
+}
+
 
 
 /*About Page*/
@@ -140,10 +180,10 @@
 /*Extended Gallery Pages */
 
 .container{
+	display:block;
 	max-width:1000px;
 	margin:0 auto;
-	position:relative;
-	padding:0 20px 100px;
+	padding:0 20px 50px;
 }
 
 #sub-menu{
@@ -214,59 +254,57 @@ p{
 }
 
 
-/*Navigation*/
-
-
-#navigation ul{
-	margin:0;
-	padding:0;
-}
-#navigation li{
-	list-style: none;
-	text-align: center;
-	margin: 0;
-	padding: 1.5% 0;
-	font-size: 1.3em;
-
-}
 
 
 
 
-nav{
-	width: 100%;
-	margin:2% 0;
-  text-transform: uppercase;
 
-}
 
 /*Screens mobile*/
 
 
 @media screen and (max-width: 450px){
 
+/*Logo*/
+
+.logo{
+		position:static;
+		left:0;
+		width:100%;
+		max-width:450px;
+}
+
 /*Navigation*/
 
 
 #navigation ul{
 	margin:0;
-	padding:0;
+	padding:;
 }
 #navigation li{
+	display:block;
+	left:0;
 	list-style: none;
 	text-align: center;
 	margin: 0;
-	padding: 1.5% 0;
-	font-size: 1.3em;
+	padding:0;
+	font-size: 1.2em;
+	line-height: 1.5em;
 
 }
+
+nav div{
+	height:90px;
+	max-width:450px;
+	margin:0;
+  	text-transform: uppercase;
+  }
 
 nav{
-	width: 100%;
-	margin:2% 0;
-  text-transform: uppercase;
+	position:static;
+	}
 
-}
+	
 /*End Navigation*/
 	
 /*portfolio pages*/
@@ -318,7 +356,7 @@ figcaption{
 
 @media  screen and (min-width = 1000px){
 
-	nav{
+/*	nav{
 	width: 100%;
 	height:10%;
 	position:fixed;
@@ -332,7 +370,7 @@ figcaption{
 		margin:0 10%;
 		font-size: 1.5em;
 		
-}
+}*/
 }
 
 
