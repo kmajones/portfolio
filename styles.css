@@ -7,14 +7,19 @@
 
 /* General Styling */
 html{
-  font-family: 'Helvetica-light', 'san-serif';
    text-rendering: optimizeLegibility;
 }
 
 body{
   font-size:100%;
+  font-family: 'Raleway', sans-serif;
   background: lightblue;
   color:white;
+
+}
+
+h1, h2, h3, nav{
+	 font-family: 'Oswald', sans-serif;
 }
 a{
 	text-decoration: none;
@@ -41,21 +46,70 @@ article figure{
 /*Extended Gallery Pages */
 
 .container{
-	width:90%;
+	max-width:1000px;
+	margin:0 auto;
+	position:relative;
+	padding:0 20px 100px;
 }
 
 #sub-menu{
   float:left;
-  width:15%;
-  margin: 2% 5%;
+	padding:0;
+  width:300px;
+  margin:100px 15px;
   
 }
 
 .content{
-  /*float:right;*/
-  width:60%;
+float:left;
+ padding:0;
+ margin:10px 0;
+ width:600px;
 
 }
+
+
+
+
+/*Extended Gallery Pages Footer*/
+.gallery-footer div{
+	height:50px;
+	background: green;
+}
+.gallery-footer{
+	clear:both;
+background:orange;
+}
+
+/*arrows*/
+footer img{
+	width:50px;
+	height:50px;
+	background: orange;
+	/*position:absolute;*/
+}
+
+img[alt~="chevron-left"]{
+	position:relative;
+	left:25%;
+}
+
+
+img[alt~="grid-three-up"]{
+	position:relative;
+	display:block;
+	margin:0 auto;
+	bottom:100%;
+	/*
+	left:500px;*/
+}
+
+img[alt~="chevron-right"]{
+	position:absolute;
+	right:25%;
+
+}
+
 
 h3{
 margin: 0 0 1% 6%;
@@ -64,6 +118,7 @@ margin: 0 0 1% 6%;
 p{
   margin:1em;
 }
+
 
 /*Navigation*/
 
