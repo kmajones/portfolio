@@ -6,8 +6,8 @@
 	body{
 	  font-size:100%;
 	  font-family: 'Raleway', sans-serif;
-	  background: lightblue;
-	  color:white;
+	  color:#000;
+	  background: #F2F2F2;
 	}
 
 
@@ -56,8 +56,11 @@ header div{
 	}
 
 
-nav div{background: orange;
-		width:100%;}
+nav div{background: #287D7D;
+		width:100%;
+	    -moz-box-shadow:    0 3px 5px 2px #ccc;
+  	    -webkit-box-shadow: 0 3px 5px 2px #ccc;
+	    box-shadow:         0 3px 5px 2px #ccc;}
 
 
 nav{
@@ -133,7 +136,7 @@ nav{
 		margin:5% 0;
 	}
 
-
+	
 	figure { 
 	  display: block; 
 	  position: relative;
@@ -381,7 +384,6 @@ nav{
 	}
 
 	nav div{
-		background: purple;
 			width:100%;
 	}
 
@@ -408,6 +410,15 @@ nav{
 	  	max-width: 767px;
 	  	width:100%;
    	}
+
+   	/*Gellery*/
+
+   	.gallery{
+	  display:block;
+	  width:450px;
+	  margin: 2% auto;
+	 
+	}
 }
 
 /*End Middle Screen*/
